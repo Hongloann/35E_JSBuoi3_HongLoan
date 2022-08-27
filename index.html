@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BÀI TẬP JS BUỔI 3</title>
+    <!-- BOOTSTRAP: v4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+</head>
+<body>
+     <!-- Bài 1 -->
+    <div class="card">
+        <div class="card-header">
+          Lương Nhân Viên
+       </div> 
+       <div class="card-body">
+           <!-- <div  class="form-group">
+               <label>Luong NV</label>
+               <input id="luongNV" type="text" class="form-control">
+           </div> -->
+           <div  class="form-group">
+               <label>Số ngày làm </label>
+               <input id="soNgayLam" type="text" class="form-control" >
+           </div>
+           
+           <button id="btnLuong" class="btn btn-success">Tính Lương</button> 
+       </div>
+       <div id="showThongBao" class="card-footer text-muted">
+       </div>
+    </div>
+
+
+    <br>
+    <br>
+    <hr>
+    <!-- Bài 2 -->
+    <div class="card">
+        <div class="card-header">
+            Tính giá trị trung bình
+        </div>
+        <div class="card-body">
+            <div  class="form-group">
+                <label>Số 1</label>
+                <input id="soThu1" type="number" class="form-control" >
+            </div>
+            <div  class="form-group">
+                <label>Số 2</label>
+                <input id="soThu2" type="number" class="form-control">
+            </div>
+            <div  class="form-group">
+                <label>Số 3</label>
+                <input id="soThu3" type="number" class="form-control">
+            </div>
+            <div  class="form-group">
+                <label>Số 4</label>
+                <input id="soThu4" type="number" class="form-control">
+            </div>
+            <div  class="form-group">
+                <label>Số 5</label>
+                <input id="soThu5" type="number" class="form-control">
+            </div>
+            
+            <button id="btnTrungBinh" class="btn btn-success">Giá trị trung bình</button> 
+        </div>
+ 
+        <div id="showGiaTriTrungBinh" class="card-footer text-muted">
+        </div>
+    </div>
+
+    <!-- Bài 3  -->
+    <br>
+    <hr>
+    <div class="card">
+        <div class="card-header">
+          Quy đổi tiền
+       </div> 
+       <div class="card-body">
+         <div  class="form-group">
+               <label>USD</label>
+               <input id="USD" type="text" class="form-control">
+         </div>
+           <div  class="form-group">
+               <label>Tiền Việt: 23.500 VND </label>
+           </div>
+           
+           <button id="doiTien" class="btn btn-success">Đổi tiền</button> 
+       </div>
+
+       <div id="showTien" class="card-footer text-muted">
+       </div>
+   </div>
+
+   <!-- Bài 4  -->
+   <br>
+   <hr>
+   <div class="card">
+        <div class="card-header">
+        Diện tích, chu vi hình chữ nhật
+        </div> 
+        <div class="card-body">
+            <div  class="form-group">
+                <label>Chiều dài</label>
+                <input id="chieuDai" type="number" class="form-control">
+            </div>
+            <div  class="form-group">
+                <label>Chiều rộng</label>
+                <input id="chieuRong" type="number" class="form-control">
+            </div>
+            <button id="tinh" class="btn btn-success">Tính</button> 
+        </div>
+        <div id="showKetQua" class="card-footer text-muted">
+        </div>
+    </div>
+
+    <!-- Bài 5  -->
+    <br>
+    <hr>
+    <div class="card">
+        <div class="card-header">
+          Tính tổng 2 ký số:
+       </div> 
+       <div class="card-body">
+            <div  class="form-group">
+               <label>Số có 2 chữ số</label>
+               <input id="num_1" type="number" class="form-control">
+            </div>
+            <button id="tinhTong" class="btn btn-success">Tính</button> 
+       </div>
+        <div id="showKetQuaTong" class="card-footer text-muted">
+        </div>
+    </div>
+    
+
+    <!-- JQUERY  -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP: v4  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="./JS/main.js"></script>
+</body>
+</html>
